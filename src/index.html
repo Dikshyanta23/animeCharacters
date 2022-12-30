@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="/node_modules/bootstrap/dist/css/bootstrap.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <title>Naruto Characters</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="title">
+        <h1>Naruto Shippuden Characters</h1>
+        <div class="underline"></div>
+        .
+        <div class="card" style="width: 22rem">
+          <img
+            class="card-img-top"
+            src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/32b8f7d9-0d6c-4e2f-b737-eea02c841b00/deo8pg7-d9539697-f5a8-4e09-a5ff-e9b73f829512.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzMyYjhmN2Q5LTBkNmMtNGUyZi1iNzM3LWVlYTAyYzg0MWIwMFwvZGVvOHBnNy1kOTUzOTY5Ny1mNWE4LTRlMDktYTVmZi1lOWI3M2Y4Mjk1MTIucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.1Grgns0aCw7M8tX6Yq40-dPpxMvy5Ccp3O1w4suLv8U"
+            alt="Madara"
+            id="image"
+          />
+          <div class="card-body">
+            <h3><b>Name:</b> <span id="name">Madara Uchiha</span></h3>
+            <p><b>Title:</b> <span id="title">Ghost of the Uchiha</span></p>
+            <p><b>Village:</b> <span id="village">The hidden leaf</span></p>
+            <p><b>Quote:</b> <span id="quote">Wake up to reality</span></p>
+            <div class="navigate"></div>
+            <button class="btn btn-outline-primary" id="prev">
+              <i class="fas fa-chevron-left"></i>
+            </button>
+            <button class="btn btn-outline-primary" id="nxt">
+              <i class="fas fa-chevron-right"></i>
+            </button>
+          </div>
+          <button type="button" class="btn btn-outline-primary" id="rand">
+            Random
+          </button>
+        </div>
+      </div>
+    </div>
+    <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
